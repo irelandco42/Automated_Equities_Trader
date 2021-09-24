@@ -1,0 +1,1103 @@
+2021-09-20 18:19:52 DEBUG ETClientApp:59 - Current Thread :main, Id : 1
+2021-09-20 18:19:52 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG ClassPathBeanDefinitionScanner:252 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2021-09-20 18:19:52 INFO  AnnotationConfigApplicationContext:573 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@311d617d: startup date [Mon Sep 20 18:19:52 EDT 2021]; root of context hierarchy
+2021-09-20 18:19:52 DEBUG AnnotationConfigApplicationContext:607 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@311d617d: org.springframework.beans.factory.support.DefaultListableBeanFactory@2ac273d3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,OOauthConfig]; root of factory hierarchy
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG StandardEnvironment:109 - Adding [class path resource [oauth.properties]] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG ClassPathBeanDefinitionScanner:252 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2021-09-20 18:19:52 DEBUG PathMatchingResourcePatternResolver:424 - Resolved location pattern [classpath*:com/etrade/example/*/**/*.class] to resources []
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:164 - Registered bean definition for imported class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.authenticationManagerBuilder()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.enableGlobalAuthenticationAutowiredConfigurer()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:164 - Registered bean definition for imported class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.delegatingApplicationListener()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.webSecurityExpressionHandler()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.privilegeEvaluator()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.autowiredWebSecurityConfigurersIgnoreParents()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:164 - Registered bean definition for imported class 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration.objectPostProcessor()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.customRestTemplate()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.mappingJackson2HttpMessageConverter()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.propertyPlaceholderConfigurer()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.accountListClient()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.balanceClient()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.portfolioClient()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.quotesClient()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.orderClient()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.orderPreview()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.velocityEngineFactoryBean()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.getMessageConverters()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.securityContext()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.apiResource()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.appController()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.requestTokenService()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.authorizationService()
+2021-09-20 18:19:52 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.etrade.exampleapp.config.OOauthConfig.accessTokenService()
+2021-09-20 18:19:52 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced com.etrade.exampleapp.config.OOauthConfig; enhanced class name is: com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd
+2021-09-20 18:19:52 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition 'OOauthConfig' existing class name 'com.etrade.exampleapp.config.OOauthConfig' with enhanced class name 'com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd'
+2021-09-20 18:19:52 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration; enhanced class name is: org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$38a554e6
+2021-09-20 18:19:52 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' existing class name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' with enhanced class name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$38a554e6'
+2021-09-20 18:19:52 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration; enhanced class name is: org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$38a554e6
+2021-09-20 18:19:52 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition 'enableGlobalAuthenticationAutowiredConfigurer' existing class name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' with enhanced class name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$38a554e6'
+2021-09-20 18:19:52 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration; enhanced class name is: org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$8c71b6aa
+2021-09-20 18:19:52 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' existing class name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' with enhanced class name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$8c71b6aa'
+2021-09-20 18:19:52 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration; enhanced class name is: org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$8c71b6aa
+2021-09-20 18:19:52 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition 'delegatingApplicationListener' existing class name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' with enhanced class name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$8c71b6aa'
+2021-09-20 18:19:52 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration; enhanced class name is: org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$a1087511
+2021-09-20 18:19:52 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' existing class name 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' with enhanced class name 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$a1087511'
+2021-09-20 18:19:52 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced com.etrade.exampleapp.config.OOauthConfig; enhanced class name is: com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd
+2021-09-20 18:19:52 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition 'propertyPlaceholderConfigurer' existing class name 'com.etrade.exampleapp.config.OOauthConfig' with enhanced class name 'com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'propertyPlaceholderConfigurer'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'propertyPlaceholderConfigurer'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'propertyPlaceholderConfigurer' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'propertyPlaceholderConfigurer'
+2021-09-20 18:19:52 DEBUG MutablePropertySources:109 - Adding [environmentProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG MutablePropertySources:109 - Adding [localProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-09-20 18:19:52 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2021-09-20 18:19:52 DEBUG AnnotationConfigApplicationContext:713 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@318ba8c8]
+2021-09-20 18:19:52 DEBUG AnnotationConfigApplicationContext:737 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@163e4e87]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:741 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2ac273d3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,OOauthConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration,authenticationManagerBuilder,enableGlobalAuthenticationAutowiredConfigurer,org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration,delegatingApplicationListener,webSecurityExpressionHandler,springSecurityFilterChain,privilegeEvaluator,autowiredWebSecurityConfigurersIgnoreParents,org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration,objectPostProcessor,customRestTemplate,mappingJackson2HttpMessageConverter,propertyPlaceholderConfigurer,accountListClient,balanceClient,portfolioClient,quotesClient,orderClient,orderPreview,velocityEngineFactoryBean,getMessageConverters,securityContext,apiResource,appController,requestTokenService,authorizationService,accessTokenService]; root of factory hierarchy
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'OOauthConfig'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setTrustResolver(org.springframework.security.authentication.AuthenticationTrustResolver)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setContentNegotationStrategy(org.springframework.web.accept.ContentNegotiationStrategy)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setObjectPostProcessor(org.springframework.security.config.annotation.ObjectPostProcessor)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setAuthenticationConfiguration(org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setApplicationContext(org.springframework.context.ApplicationContext)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.baseUrl
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.authorizeUrl
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.accessUrl
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.tokenUrl
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.consumerKey
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.secretKey
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.apiBaseUrl
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.acctListUri
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.balanceUri
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.queryParam
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.portfolioUri
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.quoteUri
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.accountsUri
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for protected java.lang.String com.etrade.exampleapp.config.OOauthConfig.sandboxBaseUrl
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for protected java.lang.String com.etrade.exampleapp.config.OOauthConfig.sandboxConsumerKey
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd]: AutowiredFieldElement for protected java.lang.String com.etrade.exampleapp.config.OOauthConfig.sandboxSecretKey
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'OOauthConfig' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setTrustResolver(org.springframework.security.authentication.AuthenticationTrustResolver)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setContentNegotationStrategy(org.springframework.web.accept.ContentNegotiationStrategy)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setObjectPostProcessor(org.springframework.security.config.annotation.ObjectPostProcessor)
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'objectPostProcessor' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2ac273d3'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'objectPostProcessor' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'OOauthConfig' to bean named 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setAuthenticationConfiguration(org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration)
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$38a554e6]: AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setObjectPostProcessor(org.springframework.security.config.annotation.ObjectPostProcessor)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$38a554e6]: AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setApplicationContext(org.springframework.context.ApplicationContext)
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$38a554e6]: AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setGlobalAuthenticationConfigurers(java.util.List) throws java.lang.Exception
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration': AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setObjectPostProcessor(org.springframework.security.config.annotation.ObjectPostProcessor)
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to bean named 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration': AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setApplicationContext(org.springframework.context.ApplicationContext)
+2021-09-20 18:19:52 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to bean named 'org.springframework.context.annotation.AnnotationConfigApplicationContext@311d617d'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration': AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setGlobalAuthenticationConfigurers(java.util.List) throws java.lang.Exception
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'enableGlobalAuthenticationAutowiredConfigurer'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'enableGlobalAuthenticationAutowiredConfigurer' via factory method to bean named 'org.springframework.context.annotation.AnnotationConfigApplicationContext@311d617d'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'enableGlobalAuthenticationAutowiredConfigurer' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'enableGlobalAuthenticationAutowiredConfigurer'
+2021-09-20 18:19:52 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to bean named 'enableGlobalAuthenticationAutowiredConfigurer'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+2021-09-20 18:19:52 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'OOauthConfig' to bean named 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setApplicationContext(org.springframework.context.ApplicationContext)
+2021-09-20 18:19:52 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'OOauthConfig' to bean named 'org.springframework.context.annotation.AnnotationConfigApplicationContext@311d617d'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.baseUrl
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.baseUrl' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.baseUrl' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.baseUrl' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.baseUrl' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.baseUrl' in [class path resource [oauth.properties]] with type [String] and value 'https://api.etrade.com'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.baseUrl' in [environmentProperties] with type [String] and value 'https://api.etrade.com'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.authorizeUrl
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.authorizeUrl' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.authorizeUrl' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.authorizeUrl' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.authorizeUrl' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.authorizeUrl' in [class path resource [oauth.properties]] with type [String] and value 'https://us.etrade.com/e/t/etws/authorize'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.authorizeUrl' in [environmentProperties] with type [String] and value 'https://us.etrade.com/e/t/etws/authorize'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.accessUrl
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.accessUrl' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.accessUrl' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.accessUrl' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.accessUrl' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.accessUrl' in [class path resource [oauth.properties]] with type [String] and value '/oauth/access_token'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.accessUrl' in [environmentProperties] with type [String] and value '/oauth/access_token'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.tokenUrl
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.tokenUrl' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.tokenUrl' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.tokenUrl' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.tokenUrl' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.tokenUrl' in [class path resource [oauth.properties]] with type [String] and value '/oauth/request_token'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.tokenUrl' in [environmentProperties] with type [String] and value '/oauth/request_token'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.consumerKey
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.consumerKey' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.consumerKey' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.consumerKey' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.consumerKey' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.consumerKey' in [class path resource [oauth.properties]] with type [String] and value '955b0adc5784e4dc74c0bb0709d42578'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.consumerKey' in [environmentProperties] with type [String] and value '955b0adc5784e4dc74c0bb0709d42578'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.secretKey
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.secretKey' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.secretKey' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.secretKey' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.secretKey' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.secretKey' in [class path resource [oauth.properties]] with type [String] and value '2cb2aa83307bfcfd5bdf0e55d20c31d8'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.secretKey' in [environmentProperties] with type [String] and value '2cb2aa83307bfcfd5bdf0e55d20c31d8'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.apiBaseUrl
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.baseUrl' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.baseUrl' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.baseUrl' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.baseUrl' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.baseUrl' in [class path resource [oauth.properties]] with type [String] and value 'https://api.etrade.com'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.baseUrl' in [environmentProperties] with type [String] and value 'https://api.etrade.com'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.acctListUri
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.accountListUri' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.accountListUri' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.accountListUri' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.accountListUri' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.accountListUri' in [class path resource [oauth.properties]] with type [String] and value '/v1/accounts/list'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.accountListUri' in [environmentProperties] with type [String] and value '/v1/accounts/list'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.balanceUri
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.balanceUri' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.balanceUri' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.balanceUri' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.balanceUri' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.balanceUri' in [class path resource [oauth.properties]] with type [String] and value '/v1/accounts/'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.balanceUri' in [environmentProperties] with type [String] and value '/v1/accounts/'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.queryParam
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.balanceUri.queryParam' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.balanceUri.queryParam' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.balanceUri.queryParam' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.balanceUri.queryParam' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.balanceUri.queryParam' in [class path resource [oauth.properties]] with type [String] and value 'instType=BROKERAGE&realTimeNAV=true'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.balanceUri.queryParam' in [environmentProperties] with type [String] and value 'instType=BROKERAGE&realTimeNAV=true'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.portfolioUri
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.portfolioUri' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.portfolioUri' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.portfolioUri' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.portfolioUri' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.portfolioUri' in [class path resource [oauth.properties]] with type [String] and value '/v1/accounts/'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.portfolioUri' in [environmentProperties] with type [String] and value '/v1/accounts/'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.quoteUri
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.quoteUri' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.quoteUri' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.quoteUri' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.quoteUri' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.quoteUri' in [class path resource [oauth.properties]] with type [String] and value '/v1/market/quote/'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.quoteUri' in [environmentProperties] with type [String] and value '/v1/market/quote/'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for private java.lang.String com.etrade.exampleapp.config.OOauthConfig.accountsUri
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.accountsUri' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.accountsUri' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.accountsUri' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.accountsUri' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.accountsUri' in [class path resource [oauth.properties]] with type [String] and value '/v1/accounts/'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.accountsUri' in [environmentProperties] with type [String] and value '/v1/accounts/'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for protected java.lang.String com.etrade.exampleapp.config.OOauthConfig.sandboxBaseUrl
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxBaseUrl' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxBaseUrl' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxBaseUrl' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxBaseUrl' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.sandboxBaseUrl' in [class path resource [oauth.properties]] with type [String] and value 'https://apisb.etrade.com'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.sandboxBaseUrl' in [environmentProperties] with type [String] and value 'https://apisb.etrade.com'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for protected java.lang.String com.etrade.exampleapp.config.OOauthConfig.sandboxConsumerKey
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxConsumerKey' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxConsumerKey' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxConsumerKey' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxConsumerKey' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.sandboxConsumerKey' in [class path resource [oauth.properties]] with type [String] and value '86c5adbf00b21eb70db2e9cad2a46995'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.sandboxConsumerKey' in [environmentProperties] with type [String] and value '86c5adbf00b21eb70db2e9cad2a46995'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'OOauthConfig': AutowiredFieldElement for protected java.lang.String com.etrade.exampleapp.config.OOauthConfig.sandboxSecretKey
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxSecretKey' in [environmentProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxSecretKey' in [systemProperties]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxSecretKey' in [systemEnvironment]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'oauth.sandboxSecretKey' in [class path resource [oauth.properties]]
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.sandboxSecretKey' in [class path resource [oauth.properties]] with type [String] and value 'f38d823f67bf4442d35aa9b763f664bb'
+2021-09-20 18:19:52 DEBUG PropertySourcesPropertyResolver:90 - Found key 'oauth.sandboxSecretKey' in [environmentProperties] with type [String] and value 'f38d823f67bf4442d35aa9b763f664bb'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'OOauthConfig'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'authenticationManagerBuilder'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'authenticationManagerBuilder'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'authenticationManagerBuilder' via factory method to bean named 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'authenticationManagerBuilder' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'authenticationManagerBuilder'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+2021-09-20 18:19:52 DEBUG InjectionMetadata:72 - Registered injected element on class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$8c71b6aa]: AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.setFilterChainProxySecurityConfigurer(org.springframework.security.config.annotation.ObjectPostProcessor,java.util.List) throws java.lang.Exception
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG InjectionMetadata:86 - Processing injected element of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.setFilterChainProxySecurityConfigurer(org.springframework.security.config.annotation.ObjectPostProcessor,java.util.List) throws java.lang.Exception
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'autowiredWebSecurityConfigurersIgnoreParents'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'autowiredWebSecurityConfigurersIgnoreParents'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:246 - Returning eagerly cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' that is not fully initialized yet - a consequence of a circular reference
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'autowiredWebSecurityConfigurersIgnoreParents' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2ac273d3'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'autowiredWebSecurityConfigurersIgnoreParents' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'autowiredWebSecurityConfigurersIgnoreParents'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:52 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' to bean named 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'delegatingApplicationListener'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'delegatingApplicationListener'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'delegatingApplicationListener' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'delegatingApplicationListener'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'springSecurityFilterChain'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'springSecurityFilterChain'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'propertyPlaceholderConfigurer'
+2021-09-20 18:19:52 DEBUG AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer:137 - Eagerly initializing {OOauthConfig=com.etrade.exampleapp.config.OOauthConfig$$EnhancerBySpringCGLIB$$5994f2fd@40a4337a, propertyPlaceholderConfigurer=org.springframework.context.support.PropertySourcesPlaceholderConfigurer@6025e1b6}
+2021-09-20 18:19:52 DEBUG AuthenticationManagerBuilder:241 - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'authenticationManagerBuilder'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG WebSecurityConfigurerAdapter:320 - Using default configure(HttpSecurity). If subclassed this will potentially override subclass configure(HttpSecurity).
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.authentication.AnonymousAuthenticationProvider@346d61be'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@2cd2a21f'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@378542de'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.authentication.ProviderManager@79da8dc5'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.csrf.CsrfFilter@272ed83b'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.access.ExceptionTranslationFilter@10163d6'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.header.HeaderWriterFilter@3514a4c0'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.session.SessionManagementFilter@446293d'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.context.SecurityContextPersistenceFilter@793be5ca'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37654521'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33990a0c'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6babf3bf'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.logout.LogoutFilter@3fb1549b'
+2021-09-20 18:19:52 DEBUG ExpressionBasedFilterInvocationSecurityMetadataSource:47 - Adding web access control expression 'authenticated', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.access.vote.AffirmativeBased@5fbdfdcf'
+2021-09-20 18:19:52 DEBUG FilterSecurityInterceptor:159 - Validated configuration attributes
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bf9ce3e'
+2021-09-20 18:19:52 DEBUG FilterSecurityInterceptor:159 - Validated configuration attributes
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7133da86'
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6da21078'
+2021-09-20 18:19:52 INFO  DefaultSecurityFilterChain:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fb3536e, org.springframework.security.web.context.SecurityContextPersistenceFilter@793be5ca, org.springframework.security.web.header.HeaderWriterFilter@3514a4c0, org.springframework.security.web.csrf.CsrfFilter@272ed83b, org.springframework.security.web.authentication.logout.LogoutFilter@3fb1549b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7133da86, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6babf3bf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6da21078, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37654521, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33990a0c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@169e6180, org.springframework.security.web.session.SessionManagementFilter@446293d, org.springframework.security.web.access.ExceptionTranslationFilter@10163d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bf9ce3e]
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-09-20 18:19:52 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'springSecurityFilterChain' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'springSecurityFilterChain'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'springSecurityFilterChain'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'webSecurityExpressionHandler'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'webSecurityExpressionHandler'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'webSecurityExpressionHandler' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'webSecurityExpressionHandler'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'springSecurityFilterChain'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'springSecurityFilterChain'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'privilegeEvaluator'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'privilegeEvaluator'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'privilegeEvaluator' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'privilegeEvaluator'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'autowiredWebSecurityConfigurersIgnoreParents'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'objectPostProcessor'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'customRestTemplate'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'customRestTemplate'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mappingJackson2HttpMessageConverter'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mappingJackson2HttpMessageConverter' to allow for resolving potential circular references
+2021-09-20 18:19:52 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mappingJackson2HttpMessageConverter'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'customRestTemplate' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'customRestTemplate'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'propertyPlaceholderConfigurer'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'accountListClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'accountListClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.accounts.AccountListClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.accounts.AccountListClient.oauthManager
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.accounts.AccountListClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.accounts.AccountListClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'accountListClient' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'accountListClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.accounts.AccountListClient.oauthManager
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appController'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appController'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'requestTokenService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'requestTokenService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'customRestTemplate'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'requestTokenService' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'requestTokenService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'authorizationService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'authorizationService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'authorizationService' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'authorizationService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'accessTokenService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'accessTokenService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'customRestTemplate'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'accessTokenService' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'accessTokenService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'securityContext'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'securityContext'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'securityContext' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'securityContext'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'customRestTemplate'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appController' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appController'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'accountListClient' to bean named 'appController'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'accountListClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.accounts.AccountListClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'apiResource'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'apiResource'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'apiResource' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'apiResource'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'accountListClient' to bean named 'apiResource'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'accountListClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'balanceClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'balanceClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.accounts.BalanceClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.accounts.BalanceClient.oauthManager
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.accounts.BalanceClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.accounts.BalanceClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'balanceClient' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'balanceClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.accounts.BalanceClient.oauthManager
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'appController'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'balanceClient' to bean named 'appController'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'balanceClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.accounts.BalanceClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'apiResource'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'balanceClient' to bean named 'apiResource'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'balanceClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'portfolioClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'portfolioClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.accounts.PortfolioClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.accounts.PortfolioClient.oauthManager
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.accounts.PortfolioClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.accounts.PortfolioClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'portfolioClient' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'portfolioClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.accounts.PortfolioClient.oauthManager
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'appController'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'portfolioClient' to bean named 'appController'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'portfolioClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.accounts.PortfolioClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'apiResource'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'portfolioClient' to bean named 'apiResource'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'portfolioClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'quotesClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'quotesClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.market.QuotesClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.market.QuotesClient.oauthManager
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.market.QuotesClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.market.QuotesClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'quotesClient' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'quotesClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.market.QuotesClient.oauthManager
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'appController'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'quotesClient' to bean named 'appController'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'quotesClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.market.QuotesClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'apiResource'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'quotesClient' to bean named 'apiResource'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'quotesClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'orderClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'orderClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.order.OrderClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.order.OrderClient.oauthManager
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.order.OrderClient]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.order.OrderClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'orderClient' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'orderClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.order.OrderClient.oauthManager
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'appController'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'orderClient' to bean named 'appController'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'orderClient': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.order.OrderClient.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'apiResource'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'orderClient' to bean named 'apiResource'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'orderClient'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'orderPreview'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'orderPreview'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.order.OrderPreview]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.order.OrderPreview.oauthManager
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.order.OrderPreview]: AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.order.OrderPreview.apiResource
+2021-09-20 18:19:53 DEBUG InjectionMetadata:72 - Registered injected element on class [com.etrade.exampleapp.v1.clients.order.OrderPreview]: AutowiredFieldElement for private org.apache.velocity.app.VelocityEngine com.etrade.exampleapp.v1.clients.order.OrderPreview.velocityEngine
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'orderPreview' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'orderPreview': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.AppController com.etrade.exampleapp.v1.clients.order.OrderPreview.oauthManager
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'appController'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'orderPreview' to bean named 'appController'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'orderPreview': AutowiredFieldElement for com.etrade.exampleapp.v1.oauth.model.ApiResource com.etrade.exampleapp.v1.clients.order.OrderPreview.apiResource
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'apiResource'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'orderPreview' to bean named 'apiResource'
+2021-09-20 18:19:53 DEBUG InjectionMetadata:86 - Processing injected element of bean 'orderPreview': AutowiredFieldElement for private org.apache.velocity.app.VelocityEngine com.etrade.exampleapp.v1.clients.order.OrderPreview.velocityEngine
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'velocityEngineFactoryBean'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'velocityEngineFactoryBean'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'velocityEngineFactoryBean' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'velocityEngineFactoryBean'
+2021-09-20 18:19:53 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name 'orderPreview' to bean named 'velocityEngineFactoryBean'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'orderPreview'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'velocityEngineFactoryBean'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'getMessageConverters'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'getMessageConverters'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'OOauthConfig'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'getMessageConverters' to allow for resolving potential circular references
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'getMessageConverters'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'securityContext'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'apiResource'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'appController'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'requestTokenService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'authorizationService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'accessTokenService'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-09-20 18:19:53 DEBUG AnnotationConfigApplicationContext:764 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@331acdad]
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'delegatingApplicationListener'
+2021-09-20 18:19:53 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2021-09-20 18:19:53 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2021-09-20 18:19:53 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [oauth.properties]]
+2021-09-20 18:19:53 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2021-09-20 18:19:53 DEBUG ETClientApp:78 -  Context initialized for Live Environment
+2021-09-20 18:19:53 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'accountListClient'
+2021-09-20 18:19:53 DEBUG Client:61 -  Calling Accountlist API https://api.etrade.com/v1/accounts/list
+2021-09-20 18:19:53 DEBUG AppController:42 -  invoke method controller....false
+2021-09-20 18:19:53 DEBUG AppController:45 -  Starting oauth handshake...
+2021-09-20 18:19:53 DEBUG RequestTokenService:40 -  RequestTokenService .. https://api.etrade.com/oauth/request_token
+2021-09-20 18:19:53 DEBUG OAuth1Template:167 - The Query String  
+2021-09-20 18:19:53 DEBUG OAuth1Template:182 - Normalized string after encoding oauth_callback%3Doob%26oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTUyMTYyOTcyNTQ0MzA2MzkyMzc%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176393%26oauth_version%3D1.0
+2021-09-20 18:19:53 DEBUG OAuth1Template:188 - signature base string GET&https%3A%2F%2Fapi.etrade.com%2Foauth%2Frequest_token&oauth_callback%3Doob%26oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTUyMTYyOTcyNTQ0MzA2MzkyMzc%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176393%26oauth_version%3D1.0
+2021-09-20 18:19:53 DEBUG HmacSha1Signer:53 -  HmacSha1Signer - signatureBaseString  GET&https%3A%2F%2Fapi.etrade.com%2Foauth%2Frequest_token&oauth_callback%3Doob%26oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTUyMTYyOTcyNTQ0MzA2MzkyMzc%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176393%26oauth_version%3D1.0
+2021-09-20 18:19:53 DEBUG HmacSha1Signer:74 -  computeSignature from HMAC ZU88C0REha2jwsnn3vQ4pfNJRck=
+2021-09-20 18:19:53 DEBUG OAuth1Template:192 -  signature ZU88C0REha2jwsnn3vQ4pfNJRck=
+2021-09-20 18:19:53 DEBUG OAuth1Template:310 -  getAuthorizationHeader : false isOauthRequired YES
+2021-09-20 18:19:53 DEBUG RequestTokenService:54 - Obtaining Request Token from service provider
+2021-09-20 18:19:53 DEBUG CustomRestTemplate:35 - Oauth HeaderOAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176393",oauth_nonce="LTUyMTYyOTcyNTQ0MzA2MzkyMzc%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="ZU88C0REha2jwsnn3vQ4pfNJRck%3D",oauth_callback="oob",oauth_version="1.0"
+2021-09-20 18:19:53 DEBUG CustomRestTemplate:42 -  Message : https://api.etrade.com/oauth/request_token
+2021-09-20 18:19:53 DEBUG CustomRestTemplate:78 - Created GET request for "https://api.etrade.com/oauth/request_token"
+2021-09-20 18:19:53 DEBUG CustomRestTemplate:715 - Setting request Accept header to [application/x-www-form-urlencoded, multipart/form-data, application/json]
+2021-09-20 18:19:53 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2021-09-20 18:19:53 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2021-09-20 18:19:53 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.etrade.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2021-09-20 18:19:53 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:19:53 DEBUG MainClientExec:234 - Opening connection {s}->https://api.etrade.com:443
+2021-09-20 18:19:53 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to api.etrade.com/198.93.34.32:443
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to api.etrade.com/198.93.34.32:443 with timeout 30000
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=api.etrade.com, O="E*TRADE Financial Holdings, LLC", L=New York, ST=New York, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=3349863
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [api.etrade.com, api-c.etrade.com]
+2021-09-20 18:19:53 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=COMODO RSA Extended Validation Secure Server CA, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+2021-09-20 18:19:53 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 172.28.173.61:52232<->198.93.34.32:443
+2021-09-20 18:19:53 DEBUG MainClientExec:255 - Executing request GET /oauth/request_token HTTP/1.1
+2021-09-20 18:19:53 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2021-09-20 18:19:53 DEBUG headers:124 - http-outgoing-0 >> GET /oauth/request_token HTTP/1.1
+2021-09-20 18:19:53 DEBUG headers:127 - http-outgoing-0 >> Accept: application/json
+2021-09-20 18:19:53 DEBUG headers:127 - http-outgoing-0 >> Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176393",oauth_nonce="LTUyMTYyOTcyNTQ0MzA2MzkyMzc%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="ZU88C0REha2jwsnn3vQ4pfNJRck%3D",oauth_callback="oob",oauth_version="1.0"
+2021-09-20 18:19:53 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json
+2021-09-20 18:19:53 DEBUG headers:127 - http-outgoing-0 >> Host: api.etrade.com
+2021-09-20 18:19:53 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2021-09-20 18:19:53 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)
+2021-09-20 18:19:53 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "GET /oauth/request_token HTTP/1.1[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176393",oauth_nonce="LTUyMTYyOTcyNTQ0MzA2MzkyMzc%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="ZU88C0REha2jwsnn3vQ4pfNJRck%3D",oauth_callback="oob",oauth_version="1.0"[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "Host: api.etrade.com[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 200[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 20 Sep 2021 22:19:53 GMT[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "Server: Apache[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "Set-Cookie: JSESSIONID=9B38E19F32147BA0DB5DDB5C7429B9E1.tomcat4; Path=/oauth; Secure; HttpOnly[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "Keep-Alive: timeout=60, max=399[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/x-www-form-urlencoded;charset=ISO-8859-1[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "a0[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "oauth_token=iEtPjze6kIzyOBdKLbE7Ex0Lbl7ou8z%2Bpp%2BzOmJS7ts%3D&oauth_token_secret=lj9vWJ%2FU7t6ce37lcSRqZIByrpJVdmcAnMmSSKq4ek4%3D&oauth_callback_confirmed=true[\r][\n]"
+2021-09-20 18:19:53 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 200
+2021-09-20 18:19:53 DEBUG headers:116 - http-outgoing-0 << Date: Mon, 20 Sep 2021 22:19:53 GMT
+2021-09-20 18:19:53 DEBUG headers:116 - http-outgoing-0 << Server: Apache
+2021-09-20 18:19:53 DEBUG headers:116 - http-outgoing-0 << Set-Cookie: JSESSIONID=9B38E19F32147BA0DB5DDB5C7429B9E1.tomcat4; Path=/oauth; Secure; HttpOnly
+2021-09-20 18:19:53 DEBUG headers:116 - http-outgoing-0 << Keep-Alive: timeout=60, max=399
+2021-09-20 18:19:53 DEBUG headers:116 - http-outgoing-0 << Connection: Keep-Alive
+2021-09-20 18:19:53 DEBUG headers:116 - http-outgoing-0 << Transfer-Encoding: chunked
+2021-09-20 18:19:53 DEBUG headers:116 - http-outgoing-0 << Content-Type: application/x-www-form-urlencoded;charset=ISO-8859-1
+2021-09-20 18:19:53 DEBUG MainClientExec:284 - Connection can be kept alive for 60000 MILLISECONDS
+2021-09-20 18:19:53 DEBUG ResponseProcessCookies:118 - Cookie accepted [JSESSIONID="9B38E19F32147BA0DB5DDB5C7429B9E1.tomcat4", version:0, domain:api.etrade.com, path:/oauth, expiry:null]
+2021-09-20 18:19:53 DEBUG CustomRestTemplate:627 - GET request for "https://api.etrade.com/oauth/request_token" resulted in 200 (200)
+2021-09-20 18:19:53 DEBUG CustomRestTemplate:102 - Reading [org.springframework.util.LinkedMultiValueMap] as "application/x-www-form-urlencoded;charset=ISO-8859-1" using [com.etrade.exampleapp.config.OOauthConfig$1@58e6d4b8]
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2021-09-20 18:19:53 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:19:53 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.etrade.com:443] can be kept alive for 60.0 seconds
+2021-09-20 18:19:53 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:19:53 DEBUG CustomRestTemplate:59 -  Completed the service call
+2021-09-20 18:19:53 DEBUG RequestTokenService:58 - after executing rest template
+2021-09-20 18:19:53 DEBUG RequestTokenService:63 -  Request Token :iEtPjze6kIzyOBdKLbE7Ex0Lbl7ou8z+pp+zOmJS7ts=
+2021-09-20 18:19:53 DEBUG RequestTokenService:64 -  Request Token Secret :lj9vWJ/U7t6ce37lcSRqZIByrpJVdmcAnMmSSKq4ek4=
+2021-09-20 18:19:53 DEBUG AuthorizationService:39 -  AuthorizationService .. 
+2021-09-20 18:20:00 DEBUG AuthorizationService:79 - set code on to params OWP4D
+2021-09-20 18:20:00 DEBUG AccessTokenService:34 - AccessTokenService...1
+2021-09-20 18:20:00 DEBUG AccessTokenService:35 - AccessTokenService...https://api.etrade.com/oauth/access_token
+2021-09-20 18:20:00 DEBUG OAuth1Template:156 -  verifier code :OWP4D
+2021-09-20 18:20:00 DEBUG OAuth1Template:167 - The Query String  
+2021-09-20 18:20:00 DEBUG OAuth1Template:182 - Normalized string after encoding oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DNDg0ODQwMDU3NDYzOTE2OTE5NA%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DiEtPjze6kIzyOBdKLbE7Ex0Lbl7ou8z%252Bpp%252BzOmJS7ts%253D%26oauth_verifier%3DOWP4D
+2021-09-20 18:20:00 DEBUG OAuth1Template:188 - signature base string GET&https%3A%2F%2Fapi.etrade.com%2Foauth%2Faccess_token&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DNDg0ODQwMDU3NDYzOTE2OTE5NA%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DiEtPjze6kIzyOBdKLbE7Ex0Lbl7ou8z%252Bpp%252BzOmJS7ts%253D%26oauth_verifier%3DOWP4D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:53 -  HmacSha1Signer - signatureBaseString  GET&https%3A%2F%2Fapi.etrade.com%2Foauth%2Faccess_token&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DNDg0ODQwMDU3NDYzOTE2OTE5NA%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DiEtPjze6kIzyOBdKLbE7Ex0Lbl7ou8z%252Bpp%252BzOmJS7ts%253D%26oauth_verifier%3DOWP4D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:74 -  computeSignature from HMAC IIpPEK4GAaqREcqvEMCg4JyVoJM=
+2021-09-20 18:20:00 DEBUG OAuth1Template:192 -  signature IIpPEK4GAaqREcqvEMCg4JyVoJM=
+2021-09-20 18:20:00 DEBUG OAuth1Template:310 -  getAuthorizationHeader : false isOauthRequired YES
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:35 - Oauth HeaderOAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="NDg0ODQwMDU3NDYzOTE2OTE5NA%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="IIpPEK4GAaqREcqvEMCg4JyVoJM%3D",oauth_token="iEtPjze6kIzyOBdKLbE7Ex0Lbl7ou8z%2Bpp%2BzOmJS7ts%3D",oauth_verifier="OWP4D"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:42 -  Message : https://api.etrade.com/oauth/access_token
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:78 - Created GET request for "https://api.etrade.com/oauth/access_token"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:715 - Setting request Accept header to [application/x-www-form-urlencoded, multipart/form-data, application/json]
+2021-09-20 18:20:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2021-09-20 18:20:00 DEBUG RequestAddCookies:167 - Cookie [version: 0][name: JSESSIONID][value: 9B38E19F32147BA0DB5DDB5C7429B9E1.tomcat4][domain: api.etrade.com][path: /oauth][expiry: null] match [(secure)api.etrade.com:443/oauth/access_token]
+2021-09-20 18:20:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG MainClientExec:255 - Executing request GET /oauth/access_token HTTP/1.1
+2021-09-20 18:20:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2021-09-20 18:20:00 DEBUG headers:124 - http-outgoing-0 >> GET /oauth/access_token HTTP/1.1
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="NDg0ODQwMDU3NDYzOTE2OTE5NA%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="IIpPEK4GAaqREcqvEMCg4JyVoJM%3D",oauth_token="iEtPjze6kIzyOBdKLbE7Ex0Lbl7ou8z%2Bpp%2BzOmJS7ts%3D",oauth_verifier="OWP4D"
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Host: api.etrade.com
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Cookie: JSESSIONID=9B38E19F32147BA0DB5DDB5C7429B9E1.tomcat4
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "GET /oauth/access_token HTTP/1.1[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="NDg0ODQwMDU3NDYzOTE2OTE5NA%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="IIpPEK4GAaqREcqvEMCg4JyVoJM%3D",oauth_token="iEtPjze6kIzyOBdKLbE7Ex0Lbl7ou8z%2Bpp%2BzOmJS7ts%3D",oauth_verifier="OWP4D"[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Host: api.etrade.com[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Cookie: JSESSIONID=9B38E19F32147BA0DB5DDB5C7429B9E1.tomcat4[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 200[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 20 Sep 2021 22:20:00 GMT[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Server: Apache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Keep-Alive: timeout=60, max=398[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/x-www-form-urlencoded;charset=ISO-8859-1[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "82[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "oauth_token=vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D&oauth_token_secret=QsSZJI%2Fq4n%2F5CKCjAdx38UJ7YEXnPWPKuIMTfMc%2F2zk%3D[\r][\n]"
+2021-09-20 18:20:00 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 200
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Date: Mon, 20 Sep 2021 22:20:00 GMT
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Server: Apache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Keep-Alive: timeout=60, max=398
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Transfer-Encoding: chunked
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Content-Type: application/x-www-form-urlencoded;charset=ISO-8859-1
+2021-09-20 18:20:00 DEBUG MainClientExec:284 - Connection can be kept alive for 60000 MILLISECONDS
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:627 - GET request for "https://api.etrade.com/oauth/access_token" resulted in 200 (200)
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:102 - Reading [org.springframework.util.LinkedMultiValueMap] as "application/x-www-form-urlencoded;charset=ISO-8859-1" using [com.etrade.exampleapp.config.OOauthConfig$1@58e6d4b8]
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.etrade.com:443] can be kept alive for 60.0 seconds
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:59 -  Completed the service call
+2021-09-20 18:20:00 DEBUG AccessTokenService:56 -  Access Token :vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM=
+2021-09-20 18:20:00 DEBUG AccessTokenService:57 -  Access Token Secret :QsSZJI/q4n/5CKCjAdx38UJ7YEXnPWPKuIMTfMc/2zk=
+2021-09-20 18:20:00 DEBUG AppController:59 -  Oauth context initialized
+2021-09-20 18:20:00 DEBUG OAuth1Template:156 -  verifier code :null
+2021-09-20 18:20:00 DEBUG OAuth1Template:167 - The Query String  null
+2021-09-20 18:20:00 DEBUG OAuth1Template:182 - Normalized string after encoding oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTEyNjYxODY3NDEyODE4MTM4MTA%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG OAuth1Template:188 - signature base string GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Faccounts%2Flist&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTEyNjYxODY3NDEyODE4MTM4MTA%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:53 -  HmacSha1Signer - signatureBaseString  GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Faccounts%2Flist&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTEyNjYxODY3NDEyODE4MTM4MTA%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:74 -  computeSignature from HMAC 4FB1R/zsEYGtLIoHL2/gfsN+PCs=
+2021-09-20 18:20:00 DEBUG OAuth1Template:192 -  signature 4FB1R/zsEYGtLIoHL2/gfsN+PCs=
+2021-09-20 18:20:00 DEBUG OAuth1Template:310 -  getAuthorizationHeader : true isOauthRequired YES
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:71 - Oauth HeaderOAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="LTEyNjYxODY3NDEyODE4MTM4MTA%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="4FB1R%2FzsEYGtLIoHL2%2FgfsN%2BPCs%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:78 - Created GET request for "https://api.etrade.com/v1/accounts/list"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:715 - Setting request Accept header to [text/plain, application/json, */*]
+2021-09-20 18:20:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2021-09-20 18:20:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG MainClientExec:255 - Executing request GET /v1/accounts/list HTTP/1.1
+2021-09-20 18:20:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2021-09-20 18:20:00 DEBUG headers:124 - http-outgoing-0 >> GET /v1/accounts/list HTTP/1.1
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="LTEyNjYxODY3NDEyODE4MTM4MTA%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="4FB1R%2FzsEYGtLIoHL2%2FgfsN%2BPCs%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Host: api.etrade.com
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "GET /v1/accounts/list HTTP/1.1[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="LTEyNjYxODY3NDEyODE4MTM4MTA%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="4FB1R%2FzsEYGtLIoHL2%2FgfsN%2BPCs%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Host: api.etrade.com[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 20 Sep 2021 22:20:00 GMT[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Server: Apache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "apiServerName: 18w603m3[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "X-ET-Trace: fa457372c2523b56075ab8c1c9b061e7[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Set-Cookie: JSESSIONID=9FCE8A70A4A5D120AACEEEB9577AADB1.tomcat4;path=/;Secure;HttpOnly[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Keep-Alive: timeout=60, max=387[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Date: Mon, 20 Sep 2021 22:20:00 GMT
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Server: Apache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Cache-Control: no-cache, no-store
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Pragma: no-cache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << apiServerName: 18w603m3
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << X-ET-Trace: fa457372c2523b56075ab8c1c9b061e7
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Set-Cookie: JSESSIONID=9FCE8A70A4A5D120AACEEEB9577AADB1.tomcat4;path=/;Secure;HttpOnly
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Keep-Alive: timeout=60, max=387
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Transfer-Encoding: chunked
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Content-Type: application/json
+2021-09-20 18:20:00 DEBUG MainClientExec:284 - Connection can be kept alive for 60000 MILLISECONDS
+2021-09-20 18:20:00 DEBUG ResponseProcessCookies:118 - Cookie accepted [JSESSIONID="9FCE8A70A4A5D120AACEEEB9577AADB1.tomcat4", version:0, domain:api.etrade.com, path:/, expiry:null]
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:627 - GET request for "https://api.etrade.com/v1/accounts/list" resulted in 200 (OK)
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "11f[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "{"AccountListResponse":{"Accounts":{"Account":[{"accountId":"51515465","accountIdKey":"3gSNfVZwz1AmoNxlTHzkzw","accountMode":"CASH","accountDesc":"Individual Brokerage","accountName":"","accountType":"INDIVIDUAL","institutionType":"BROKERAGE","accountStatus":"ACTIVE","closedDate":0}]}}}[\r][\n]"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:102 - Reading [java.lang.String] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@7c56e013]
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.etrade.com:443] can be kept alive for 60.0 seconds
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG AppController:75 - {"AccountListResponse":{"Accounts":{"Account":[{"accountId":"51515465","accountIdKey":"3gSNfVZwz1AmoNxlTHzkzw","accountMode":"CASH","accountDesc":"Individual Brokerage","accountName":"","accountType":"INDIVIDUAL","institutionType":"BROKERAGE","accountStatus":"ACTIVE","closedDate":0}]}}}
+2021-09-20 18:20:00 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'quotesClient'
+2021-09-20 18:20:00 DEBUG AppController:42 -  invoke method controller....true
+2021-09-20 18:20:00 DEBUG OAuth1Template:156 -  verifier code :null
+2021-09-20 18:20:00 DEBUG OAuth1Template:167 - The Query String  null
+2021-09-20 18:20:00 DEBUG OAuth1Template:182 - Normalized string after encoding oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DODk4MDY4MzMxNDUwNTIxMTQ1Ng%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG OAuth1Template:188 - signature base string GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Fmarket%2Fquote%2FSDC&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DODk4MDY4MzMxNDUwNTIxMTQ1Ng%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:53 -  HmacSha1Signer - signatureBaseString  GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Fmarket%2Fquote%2FSDC&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DODk4MDY4MzMxNDUwNTIxMTQ1Ng%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:74 -  computeSignature from HMAC C3a+ts4jmmbLkdWHpi4mhSnbfQI=
+2021-09-20 18:20:00 DEBUG OAuth1Template:192 -  signature C3a+ts4jmmbLkdWHpi4mhSnbfQI=
+2021-09-20 18:20:00 DEBUG OAuth1Template:310 -  getAuthorizationHeader : true isOauthRequired YES
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:71 - Oauth HeaderOAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="ODk4MDY4MzMxNDUwNTIxMTQ1Ng%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="C3a%2Bts4jmmbLkdWHpi4mhSnbfQI%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:78 - Created GET request for "https://api.etrade.com/v1/market/quote/SDC"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:715 - Setting request Accept header to [text/plain, application/json, */*]
+2021-09-20 18:20:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2021-09-20 18:20:00 DEBUG RequestAddCookies:167 - Cookie [version: 0][name: JSESSIONID][value: 9FCE8A70A4A5D120AACEEEB9577AADB1.tomcat4][domain: api.etrade.com][path: /][expiry: null] match [(secure)api.etrade.com:443/v1/market/quote/SDC]
+2021-09-20 18:20:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG MainClientExec:255 - Executing request GET /v1/market/quote/SDC HTTP/1.1
+2021-09-20 18:20:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2021-09-20 18:20:00 DEBUG headers:124 - http-outgoing-0 >> GET /v1/market/quote/SDC HTTP/1.1
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="ODk4MDY4MzMxNDUwNTIxMTQ1Ng%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="C3a%2Bts4jmmbLkdWHpi4mhSnbfQI%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Host: api.etrade.com
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Cookie: JSESSIONID=9FCE8A70A4A5D120AACEEEB9577AADB1.tomcat4
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "GET /v1/market/quote/SDC HTTP/1.1[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="ODk4MDY4MzMxNDUwNTIxMTQ1Ng%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="C3a%2Bts4jmmbLkdWHpi4mhSnbfQI%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Host: api.etrade.com[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Cookie: JSESSIONID=9FCE8A70A4A5D120AACEEEB9577AADB1.tomcat4[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 20 Sep 2021 22:20:00 GMT[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Server: Apache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "apiServerName: 20w603m3[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "X-ET-Trace: 8f21b16002b1cd16c5eda1bb648dd9f9[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Set-Cookie: JSESSIONID=EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4;path=/;Secure;HttpOnly[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Keep-Alive: timeout=60, max=86[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Date: Mon, 20 Sep 2021 22:20:00 GMT
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Server: Apache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Cache-Control: no-cache, no-store
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Pragma: no-cache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << apiServerName: 20w603m3
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << X-ET-Trace: 8f21b16002b1cd16c5eda1bb648dd9f9
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Set-Cookie: JSESSIONID=EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4;path=/;Secure;HttpOnly
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Keep-Alive: timeout=60, max=86
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Transfer-Encoding: chunked
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Content-Type: application/json
+2021-09-20 18:20:00 DEBUG MainClientExec:284 - Connection can be kept alive for 60000 MILLISECONDS
+2021-09-20 18:20:00 DEBUG ResponseProcessCookies:118 - Cookie accepted [JSESSIONID="EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4", version:0, domain:api.etrade.com, path:/, expiry:null]
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:627 - GET request for "https://api.etrade.com/v1/market/quote/SDC" resulted in 200 (OK)
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "5c0[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "{"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:45 EDT 09-20-2021","dateTimeUTC":1632176385,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":6.79,"askSize":3800,"askTime":"18:19:45 EDT 09-20-2021","bid":6.76,"bidExchange":" ","bidSize":1300,"bidTime":"18:19:45 EDT 09-20-2021","changeClose":-0.21,"changeClosePercentage":-3.13,"companyName":"SMILEDIRECTCLUB INC CL A COM","daysToExpiration":0,"dirLast":"1","dividend":0.0,"eps":-0.4152,"estEarnings":-0.675,"exDividendDate":0,"high":7.36,"high52":16.0799,"lastTrade":6.49,"low":6.12,"low52":4.63,"open":7.03,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":6.7,"previousDayVolume":25203224,"primaryExchange":"NSDQ","symbolDescription":"SMILEDIRECTCLUB INC CL A COM","totalVolume":96611554,"upc":0,"cashDeliverable":0,"marketCap":771466300.00,"sharesOutstanding":118870000,"nextEarningDate":"","beta":1.41,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":0,"pe":0.0,"week52LowDate":1629757200,"week52HiDate":1611876000,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168000,"averageVolume":33537715,"ExtendedHourQuoteDetail":{"lastPrice":6.78,"change":0.08,"percentChange":1.19,"bid":6.77,"bidSize":100,"ask":6.78,"askSize":600,"volume":96656472,"timeOfLastTrade":1632176385,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"SDC","securityType":"EQ"}}]}}[\r][\n]"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:102 - Reading [java.lang.String] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@7c56e013]
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.etrade.com:443] can be kept alive for 60.0 seconds
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG AppController:75 - {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:45 EDT 09-20-2021","dateTimeUTC":1632176385,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":6.79,"askSize":3800,"askTime":"18:19:45 EDT 09-20-2021","bid":6.76,"bidExchange":" ","bidSize":1300,"bidTime":"18:19:45 EDT 09-20-2021","changeClose":-0.21,"changeClosePercentage":-3.13,"companyName":"SMILEDIRECTCLUB INC CL A COM","daysToExpiration":0,"dirLast":"1","dividend":0.0,"eps":-0.4152,"estEarnings":-0.675,"exDividendDate":0,"high":7.36,"high52":16.0799,"lastTrade":6.49,"low":6.12,"low52":4.63,"open":7.03,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":6.7,"previousDayVolume":25203224,"primaryExchange":"NSDQ","symbolDescription":"SMILEDIRECTCLUB INC CL A COM","totalVolume":96611554,"upc":0,"cashDeliverable":0,"marketCap":771466300.00,"sharesOutstanding":118870000,"nextEarningDate":"","beta":1.41,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":0,"pe":0.0,"week52LowDate":1629757200,"week52HiDate":1611876000,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168000,"averageVolume":33537715,"ExtendedHourQuoteDetail":{"lastPrice":6.78,"change":0.08,"percentChange":1.19,"bid":6.77,"bidSize":100,"ask":6.78,"askSize":600,"volume":96656472,"timeOfLastTrade":1632176385,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"SDC","securityType":"EQ"}}]}}
+2021-09-20 18:20:00 DEBUG ETClientApp:1018 -  Response String : {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:45 EDT 09-20-2021","dateTimeUTC":1632176385,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":6.79,"askSize":3800,"askTime":"18:19:45 EDT 09-20-2021","bid":6.76,"bidExchange":" ","bidSize":1300,"bidTime":"18:19:45 EDT 09-20-2021","changeClose":-0.21,"changeClosePercentage":-3.13,"companyName":"SMILEDIRECTCLUB INC CL A COM","daysToExpiration":0,"dirLast":"1","dividend":0.0,"eps":-0.4152,"estEarnings":-0.675,"exDividendDate":0,"high":7.36,"high52":16.0799,"lastTrade":6.49,"low":6.12,"low52":4.63,"open":7.03,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":6.7,"previousDayVolume":25203224,"primaryExchange":"NSDQ","symbolDescription":"SMILEDIRECTCLUB INC CL A COM","totalVolume":96611554,"upc":0,"cashDeliverable":0,"marketCap":771466300.00,"sharesOutstanding":118870000,"nextEarningDate":"","beta":1.41,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":0,"pe":0.0,"week52LowDate":1629757200,"week52HiDate":1611876000,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168000,"averageVolume":33537715,"ExtendedHourQuoteDetail":{"lastPrice":6.78,"change":0.08,"percentChange":1.19,"bid":6.77,"bidSize":100,"ask":6.78,"askSize":600,"volume":96656472,"timeOfLastTrade":1632176385,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"SDC","securityType":"EQ"}}]}}
+2021-09-20 18:20:00 DEBUG ETClientApp:1023 -  JSONObject : {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:45 EDT 09-20-2021","All":{"totalVolume":96611554,"cashDeliverable":0,"companyName":"SMILEDIRECTCLUB INC CL A COM","lastTrade":6.49,"primaryExchange":"NSDQ","bidTime":"18:19:45 EDT 09-20-2021","high":7.36,"optionUnderlier":"","bidExchange":" ","askSize":3800,"dividendPayableDate":0,"marketCap":7.714663E8,"previousDayVolume":25203224,"daysToExpiration":0,"eps":-0.4152,"upc":0,"symbolDescription":"SMILEDIRECTCLUB INC CL A COM","adjustedFlag":false,"nextEarningDate":"","timeOfLastTrade":1632168000,"timePremium":0.0,"estEarnings":-0.675,"openInterest":0,"dirLast":"1","optionStyle":"","declaredDividend":0.0,"high52":16.0799,"week52LowDate":1629757200,"previousClose":6.7,"low":6.12,"low52":4.63,"yield":0.0,"dividend":0.0,"contractSize":0.0,"changeClosePercentage":-3.13,"sharesOutstanding":118870000,"ExtendedHourQuoteDetail":{"volume":96656472,"percentChange":1.19,"bidSize":100,"change":0.08,"ask":6.78,"timeZone":"","timeOfLastTrade":1632176385,"bid":6.77,"askSize":600,"quoteStatus":"EH_REALTIME","lastPrice":6.78},"beta":1.41,"expirationDate":0,"askTime":"18:19:45 EDT 09-20-2021","bidSize":1300,"exDividendDate":0,"optionMultiplier":0.0,"pe":0.0,"averageVolume":33537715,"ask":6.79,"bid":6.76,"changeClose":-0.21,"intrinsicValue":0.0,"week52HiDate":1611876000,"open":7.03},"ahFlag":"true","dateTimeUTC":1632176385,"hasMiniOptions":false,"Product":{"symbol":"SDC","securityType":"EQ"},"quoteStatus":"CLOSING"}]}}
+2021-09-20 18:20:00 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'quotesClient'
+2021-09-20 18:20:00 DEBUG AppController:42 -  invoke method controller....true
+2021-09-20 18:20:00 DEBUG OAuth1Template:156 -  verifier code :null
+2021-09-20 18:20:00 DEBUG OAuth1Template:167 - The Query String  null
+2021-09-20 18:20:00 DEBUG OAuth1Template:182 - Normalized string after encoding oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DMTM5MTAyMTM0MTEwMTc0MTIxNg%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG OAuth1Template:188 - signature base string GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Fmarket%2Fquote%2FPLTR&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DMTM5MTAyMTM0MTEwMTc0MTIxNg%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:53 -  HmacSha1Signer - signatureBaseString  GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Fmarket%2Fquote%2FPLTR&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DMTM5MTAyMTM0MTEwMTc0MTIxNg%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:74 -  computeSignature from HMAC DF+kIFFR//4HW7XaaaxaxGrI6lk=
+2021-09-20 18:20:00 DEBUG OAuth1Template:192 -  signature DF+kIFFR//4HW7XaaaxaxGrI6lk=
+2021-09-20 18:20:00 DEBUG OAuth1Template:310 -  getAuthorizationHeader : true isOauthRequired YES
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:71 - Oauth HeaderOAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="MTM5MTAyMTM0MTEwMTc0MTIxNg%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="DF%2BkIFFR%2F%2F4HW7XaaaxaxGrI6lk%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:78 - Created GET request for "https://api.etrade.com/v1/market/quote/PLTR"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:715 - Setting request Accept header to [text/plain, application/json, */*]
+2021-09-20 18:20:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2021-09-20 18:20:00 DEBUG RequestAddCookies:167 - Cookie [version: 0][name: JSESSIONID][value: EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4][domain: api.etrade.com][path: /][expiry: null] match [(secure)api.etrade.com:443/v1/market/quote/PLTR]
+2021-09-20 18:20:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG MainClientExec:255 - Executing request GET /v1/market/quote/PLTR HTTP/1.1
+2021-09-20 18:20:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2021-09-20 18:20:00 DEBUG headers:124 - http-outgoing-0 >> GET /v1/market/quote/PLTR HTTP/1.1
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="MTM5MTAyMTM0MTEwMTc0MTIxNg%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="DF%2BkIFFR%2F%2F4HW7XaaaxaxGrI6lk%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Host: api.etrade.com
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Cookie: JSESSIONID=EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "GET /v1/market/quote/PLTR HTTP/1.1[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="MTM5MTAyMTM0MTEwMTc0MTIxNg%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="DF%2BkIFFR%2F%2F4HW7XaaaxaxGrI6lk%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Host: api.etrade.com[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Cookie: JSESSIONID=EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 20 Sep 2021 22:20:00 GMT[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Server: Apache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "apiServerName: 20w603m3[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "X-ET-Trace: d6495933d0d722d1995ab092102ecbdd[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Keep-Alive: timeout=60, max=85[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Date: Mon, 20 Sep 2021 22:20:00 GMT
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Server: Apache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Cache-Control: no-cache, no-store
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Pragma: no-cache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << apiServerName: 20w603m3
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << X-ET-Trace: d6495933d0d722d1995ab092102ecbdd
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Keep-Alive: timeout=60, max=85
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Transfer-Encoding: chunked
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Content-Type: application/json
+2021-09-20 18:20:00 DEBUG MainClientExec:284 - Connection can be kept alive for 60000 MILLISECONDS
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:627 - GET request for "https://api.etrade.com/v1/market/quote/PLTR" resulted in 200 (OK)
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "5d1[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "{"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:59 EDT 09-20-2021","dateTimeUTC":1632176399,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":26.57,"askSize":4400,"askTime":"18:19:59 EDT 09-20-2021","bid":26.54,"bidExchange":" ","bidSize":300,"bidTime":"18:19:59 EDT 09-20-2021","changeClose":-2.16,"changeClosePercentage":-7.52,"companyName":"PALANTIR TECHNOLOGIES INC CL A","daysToExpiration":0,"dirLast":"1","dividend":0.0,"eps":-0.7414,"estEarnings":0.162,"exDividendDate":0,"high":28.0999,"high52":45.0,"lastTrade":26.55,"low":26.06,"low52":8.9,"open":27.57,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":28.71,"previousDayVolume":109865349,"primaryExchange":"NYSE","symbolDescription":"PALANTIR TECHNOLOGIES INC CL A","totalVolume":89245541,"upc":0,"cashDeliverable":0,"marketCap":49542300000.00,"sharesOutstanding":1866000000,"nextEarningDate":"","beta":0.88,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":0,"pe":0.0,"week52LowDate":1602022800,"week52HiDate":1611789600,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168600,"averageVolume":60708398,"ExtendedHourQuoteDetail":{"lastPrice":26.6,"change":-2.11,"percentChange":-7.35,"bid":26.58,"bidSize":1600,"ask":26.6,"askSize":200,"volume":89256837,"timeOfLastTrade":1632176399,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"PLTR","securityType":"EQ"}}]}}[\r][\n]"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:102 - Reading [java.lang.String] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@7c56e013]
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.etrade.com:443] can be kept alive for 60.0 seconds
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG AppController:75 - {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:59 EDT 09-20-2021","dateTimeUTC":1632176399,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":26.57,"askSize":4400,"askTime":"18:19:59 EDT 09-20-2021","bid":26.54,"bidExchange":" ","bidSize":300,"bidTime":"18:19:59 EDT 09-20-2021","changeClose":-2.16,"changeClosePercentage":-7.52,"companyName":"PALANTIR TECHNOLOGIES INC CL A","daysToExpiration":0,"dirLast":"1","dividend":0.0,"eps":-0.7414,"estEarnings":0.162,"exDividendDate":0,"high":28.0999,"high52":45.0,"lastTrade":26.55,"low":26.06,"low52":8.9,"open":27.57,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":28.71,"previousDayVolume":109865349,"primaryExchange":"NYSE","symbolDescription":"PALANTIR TECHNOLOGIES INC CL A","totalVolume":89245541,"upc":0,"cashDeliverable":0,"marketCap":49542300000.00,"sharesOutstanding":1866000000,"nextEarningDate":"","beta":0.88,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":0,"pe":0.0,"week52LowDate":1602022800,"week52HiDate":1611789600,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168600,"averageVolume":60708398,"ExtendedHourQuoteDetail":{"lastPrice":26.6,"change":-2.11,"percentChange":-7.35,"bid":26.58,"bidSize":1600,"ask":26.6,"askSize":200,"volume":89256837,"timeOfLastTrade":1632176399,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"PLTR","securityType":"EQ"}}]}}
+2021-09-20 18:20:00 DEBUG ETClientApp:1018 -  Response String : {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:59 EDT 09-20-2021","dateTimeUTC":1632176399,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":26.57,"askSize":4400,"askTime":"18:19:59 EDT 09-20-2021","bid":26.54,"bidExchange":" ","bidSize":300,"bidTime":"18:19:59 EDT 09-20-2021","changeClose":-2.16,"changeClosePercentage":-7.52,"companyName":"PALANTIR TECHNOLOGIES INC CL A","daysToExpiration":0,"dirLast":"1","dividend":0.0,"eps":-0.7414,"estEarnings":0.162,"exDividendDate":0,"high":28.0999,"high52":45.0,"lastTrade":26.55,"low":26.06,"low52":8.9,"open":27.57,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":28.71,"previousDayVolume":109865349,"primaryExchange":"NYSE","symbolDescription":"PALANTIR TECHNOLOGIES INC CL A","totalVolume":89245541,"upc":0,"cashDeliverable":0,"marketCap":49542300000.00,"sharesOutstanding":1866000000,"nextEarningDate":"","beta":0.88,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":0,"pe":0.0,"week52LowDate":1602022800,"week52HiDate":1611789600,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168600,"averageVolume":60708398,"ExtendedHourQuoteDetail":{"lastPrice":26.6,"change":-2.11,"percentChange":-7.35,"bid":26.58,"bidSize":1600,"ask":26.6,"askSize":200,"volume":89256837,"timeOfLastTrade":1632176399,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"PLTR","securityType":"EQ"}}]}}
+2021-09-20 18:20:00 DEBUG ETClientApp:1023 -  JSONObject : {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:59 EDT 09-20-2021","All":{"totalVolume":89245541,"cashDeliverable":0,"companyName":"PALANTIR TECHNOLOGIES INC CL A","lastTrade":26.55,"primaryExchange":"NYSE","bidTime":"18:19:59 EDT 09-20-2021","high":28.0999,"optionUnderlier":"","bidExchange":" ","askSize":4400,"dividendPayableDate":0,"marketCap":4.95423E10,"previousDayVolume":109865349,"daysToExpiration":0,"eps":-0.7414,"upc":0,"symbolDescription":"PALANTIR TECHNOLOGIES INC CL A","adjustedFlag":false,"nextEarningDate":"","timeOfLastTrade":1632168600,"timePremium":0.0,"estEarnings":0.162,"openInterest":0,"dirLast":"1","optionStyle":"","declaredDividend":0.0,"high52":45.0,"week52LowDate":1602022800,"previousClose":28.71,"low":26.06,"low52":8.9,"yield":0.0,"dividend":0.0,"contractSize":0.0,"changeClosePercentage":-7.52,"sharesOutstanding":1866000000,"ExtendedHourQuoteDetail":{"volume":89256837,"percentChange":-7.35,"bidSize":1600,"change":-2.11,"ask":26.6,"timeZone":"","timeOfLastTrade":1632176399,"bid":26.58,"askSize":200,"quoteStatus":"EH_REALTIME","lastPrice":26.6},"beta":0.88,"expirationDate":0,"askTime":"18:19:59 EDT 09-20-2021","bidSize":300,"exDividendDate":0,"optionMultiplier":0.0,"pe":0.0,"averageVolume":60708398,"ask":26.57,"bid":26.54,"changeClose":-2.16,"intrinsicValue":0.0,"week52HiDate":1611789600,"open":27.57},"ahFlag":"true","dateTimeUTC":1632176399,"hasMiniOptions":false,"Product":{"symbol":"PLTR","securityType":"EQ"},"quoteStatus":"CLOSING"}]}}
+2021-09-20 18:20:00 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'quotesClient'
+2021-09-20 18:20:00 DEBUG AppController:42 -  invoke method controller....true
+2021-09-20 18:20:00 DEBUG OAuth1Template:156 -  verifier code :null
+2021-09-20 18:20:00 DEBUG OAuth1Template:167 - The Query String  null
+2021-09-20 18:20:00 DEBUG OAuth1Template:182 - Normalized string after encoding oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTQ1NTM1MDM2NTYyNTU3MzE1MTI%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG OAuth1Template:188 - signature base string GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Fmarket%2Fquote%2FGME&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTQ1NTM1MDM2NTYyNTU3MzE1MTI%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:53 -  HmacSha1Signer - signatureBaseString  GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Fmarket%2Fquote%2FGME&oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DLTQ1NTM1MDM2NTYyNTU3MzE1MTI%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:74 -  computeSignature from HMAC MkiDxKOUM1/hlWyChv039FlBqXg=
+2021-09-20 18:20:00 DEBUG OAuth1Template:192 -  signature MkiDxKOUM1/hlWyChv039FlBqXg=
+2021-09-20 18:20:00 DEBUG OAuth1Template:310 -  getAuthorizationHeader : true isOauthRequired YES
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:71 - Oauth HeaderOAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="LTQ1NTM1MDM2NTYyNTU3MzE1MTI%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="MkiDxKOUM1%2FhlWyChv039FlBqXg%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:78 - Created GET request for "https://api.etrade.com/v1/market/quote/GME"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:715 - Setting request Accept header to [text/plain, application/json, */*]
+2021-09-20 18:20:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2021-09-20 18:20:00 DEBUG RequestAddCookies:167 - Cookie [version: 0][name: JSESSIONID][value: EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4][domain: api.etrade.com][path: /][expiry: null] match [(secure)api.etrade.com:443/v1/market/quote/GME]
+2021-09-20 18:20:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG MainClientExec:255 - Executing request GET /v1/market/quote/GME HTTP/1.1
+2021-09-20 18:20:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2021-09-20 18:20:00 DEBUG headers:124 - http-outgoing-0 >> GET /v1/market/quote/GME HTTP/1.1
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="LTQ1NTM1MDM2NTYyNTU3MzE1MTI%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="MkiDxKOUM1%2FhlWyChv039FlBqXg%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Host: api.etrade.com
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Cookie: JSESSIONID=EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "GET /v1/market/quote/GME HTTP/1.1[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="LTQ1NTM1MDM2NTYyNTU3MzE1MTI%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="MkiDxKOUM1%2FhlWyChv039FlBqXg%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D"[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Host: api.etrade.com[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Cookie: JSESSIONID=EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 20 Sep 2021 22:20:00 GMT[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Server: Apache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "apiServerName: 20w603m3[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "X-ET-Trace: 62a1670d29c54a3ffba46e557a7fcd6e[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Keep-Alive: timeout=60, max=84[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Date: Mon, 20 Sep 2021 22:20:00 GMT
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Server: Apache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Cache-Control: no-cache, no-store
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Pragma: no-cache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << apiServerName: 20w603m3
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << X-ET-Trace: 62a1670d29c54a3ffba46e557a7fcd6e
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Keep-Alive: timeout=60, max=84
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Transfer-Encoding: chunked
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Content-Type: application/json
+2021-09-20 18:20:00 DEBUG MainClientExec:284 - Connection can be kept alive for 60000 MILLISECONDS
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:627 - GET request for "https://api.etrade.com/v1/market/quote/GME" resulted in 200 (OK)
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "5d4[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "{"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:05 EDT 09-20-2021","dateTimeUTC":1632176345,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":193.9,"askSize":100,"askTime":"18:19:05 EDT 09-20-2021","bid":192.63,"bidExchange":" ","bidSize":800,"bidTime":"18:19:05 EDT 09-20-2021","changeClose":-12.77,"changeClosePercentage":-6.23,"companyName":"GAMESTOP CORP NEW CL A","daysToExpiration":0,"dirLast":"2","dividend":0.0,"eps":-0.9192,"estEarnings":-0.52,"exDividendDate":1552602000,"high":202.8499,"high52":483.0,"lastTrade":192.2,"low":184.55,"low52":8.38,"open":200.0,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":204.97,"previousDayVolume":3053173,"primaryExchange":"NYSE","symbolDescription":"GAMESTOP CORP NEW CL A","totalVolume":3936127,"upc":0,"cashDeliverable":0,"marketCap":14701570200.00,"sharesOutstanding":76491000,"nextEarningDate":"","beta":1.22,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":1553898000,"pe":0.0,"week52LowDate":1600726800,"week52HiDate":1611876000,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168600,"averageVolume":3668782,"ExtendedHourQuoteDetail":{"lastPrice":192.2,"change":-12.77,"percentChange":-6.23,"bid":192.63,"bidSize":800,"ask":193.9,"askSize":200,"volume":3936775,"timeOfLastTrade":1632176345,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"GME","securityType":"EQ"}}]}}[\r][\n]"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:102 - Reading [java.lang.String] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@7c56e013]
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.etrade.com:443] can be kept alive for 60.0 seconds
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG AppController:75 - {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:05 EDT 09-20-2021","dateTimeUTC":1632176345,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":193.9,"askSize":100,"askTime":"18:19:05 EDT 09-20-2021","bid":192.63,"bidExchange":" ","bidSize":800,"bidTime":"18:19:05 EDT 09-20-2021","changeClose":-12.77,"changeClosePercentage":-6.23,"companyName":"GAMESTOP CORP NEW CL A","daysToExpiration":0,"dirLast":"2","dividend":0.0,"eps":-0.9192,"estEarnings":-0.52,"exDividendDate":1552602000,"high":202.8499,"high52":483.0,"lastTrade":192.2,"low":184.55,"low52":8.38,"open":200.0,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":204.97,"previousDayVolume":3053173,"primaryExchange":"NYSE","symbolDescription":"GAMESTOP CORP NEW CL A","totalVolume":3936127,"upc":0,"cashDeliverable":0,"marketCap":14701570200.00,"sharesOutstanding":76491000,"nextEarningDate":"","beta":1.22,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":1553898000,"pe":0.0,"week52LowDate":1600726800,"week52HiDate":1611876000,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168600,"averageVolume":3668782,"ExtendedHourQuoteDetail":{"lastPrice":192.2,"change":-12.77,"percentChange":-6.23,"bid":192.63,"bidSize":800,"ask":193.9,"askSize":200,"volume":3936775,"timeOfLastTrade":1632176345,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"GME","securityType":"EQ"}}]}}
+2021-09-20 18:20:00 DEBUG ETClientApp:1018 -  Response String : {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:05 EDT 09-20-2021","dateTimeUTC":1632176345,"quoteStatus":"CLOSING","ahFlag":"true","hasMiniOptions":false,"All":{"adjustedFlag":false,"ask":193.9,"askSize":100,"askTime":"18:19:05 EDT 09-20-2021","bid":192.63,"bidExchange":" ","bidSize":800,"bidTime":"18:19:05 EDT 09-20-2021","changeClose":-12.77,"changeClosePercentage":-6.23,"companyName":"GAMESTOP CORP NEW CL A","daysToExpiration":0,"dirLast":"2","dividend":0.0,"eps":-0.9192,"estEarnings":-0.52,"exDividendDate":1552602000,"high":202.8499,"high52":483.0,"lastTrade":192.2,"low":184.55,"low52":8.38,"open":200.0,"openInterest":0,"optionStyle":"","optionUnderlier":"","previousClose":204.97,"previousDayVolume":3053173,"primaryExchange":"NYSE","symbolDescription":"GAMESTOP CORP NEW CL A","totalVolume":3936127,"upc":0,"cashDeliverable":0,"marketCap":14701570200.00,"sharesOutstanding":76491000,"nextEarningDate":"","beta":1.22,"yield":0.0,"declaredDividend":0.0,"dividendPayableDate":1553898000,"pe":0.0,"week52LowDate":1600726800,"week52HiDate":1611876000,"intrinsicValue":0.0,"timePremium":0.0,"optionMultiplier":0.0,"contractSize":0.0,"expirationDate":0,"timeOfLastTrade":1632168600,"averageVolume":3668782,"ExtendedHourQuoteDetail":{"lastPrice":192.2,"change":-12.77,"percentChange":-6.23,"bid":192.63,"bidSize":800,"ask":193.9,"askSize":200,"volume":3936775,"timeOfLastTrade":1632176345,"timeZone":"","quoteStatus":"EH_REALTIME"}},"Product":{"symbol":"GME","securityType":"EQ"}}]}}
+2021-09-20 18:20:00 DEBUG ETClientApp:1023 -  JSONObject : {"QuoteResponse":{"QuoteData":[{"dateTime":"18:19:05 EDT 09-20-2021","All":{"totalVolume":3936127,"cashDeliverable":0,"companyName":"GAMESTOP CORP NEW CL A","lastTrade":192.2,"primaryExchange":"NYSE","bidTime":"18:19:05 EDT 09-20-2021","high":202.8499,"optionUnderlier":"","bidExchange":" ","askSize":100,"dividendPayableDate":1553898000,"marketCap":1.47015702E10,"previousDayVolume":3053173,"daysToExpiration":0,"eps":-0.9192,"upc":0,"symbolDescription":"GAMESTOP CORP NEW CL A","adjustedFlag":false,"nextEarningDate":"","timeOfLastTrade":1632168600,"timePremium":0.0,"estEarnings":-0.52,"openInterest":0,"dirLast":"2","optionStyle":"","declaredDividend":0.0,"high52":483.0,"week52LowDate":1600726800,"previousClose":204.97,"low":184.55,"low52":8.38,"yield":0.0,"dividend":0.0,"contractSize":0.0,"changeClosePercentage":-6.23,"sharesOutstanding":76491000,"ExtendedHourQuoteDetail":{"volume":3936775,"percentChange":-6.23,"bidSize":800,"change":-12.77,"ask":193.9,"timeZone":"","timeOfLastTrade":1632176345,"bid":192.63,"askSize":200,"quoteStatus":"EH_REALTIME","lastPrice":192.2},"beta":1.22,"expirationDate":0,"askTime":"18:19:05 EDT 09-20-2021","bidSize":800,"exDividendDate":1552602000,"optionMultiplier":0.0,"pe":0.0,"averageVolume":3668782,"ask":193.9,"bid":192.63,"changeClose":-12.77,"intrinsicValue":0.0,"week52HiDate":1611876000,"open":200.0},"ahFlag":"true","dateTimeUTC":1632176345,"hasMiniOptions":false,"Product":{"symbol":"GME","securityType":"EQ"},"quoteStatus":"CLOSING"}]}}
+2021-09-20 18:20:00 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean 'balanceClient'
+2021-09-20 18:20:00 DEBUG ETClientApp:546 -  Response String : 
+2021-09-20 18:20:00 DEBUG Client:55 -  Calling Balance API https://api.etrade.com/v1/accounts/3gSNfVZwz1AmoNxlTHzkzw/balance
+2021-09-20 18:20:00 DEBUG AppController:42 -  invoke method controller....true
+2021-09-20 18:20:00 DEBUG OAuth1Template:156 -  verifier code :null
+2021-09-20 18:20:00 DEBUG OAuth1Template:167 - The Query String  instType=BROKERAGE&realTimeNAV=true
+2021-09-20 18:20:00 DEBUG OAuth1Template:182 - Normalized string after encoding instType%3DBROKERAGE%26oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DMzYwMzY4ODI2ODkxMDYzMTc0Nw%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D%26realTimeNAV%3Dtrue
+2021-09-20 18:20:00 DEBUG OAuth1Template:188 - signature base string GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Faccounts%2F3gSNfVZwz1AmoNxlTHzkzw%2Fbalance&instType%3DBROKERAGE%26oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DMzYwMzY4ODI2ODkxMDYzMTc0Nw%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D%26realTimeNAV%3Dtrue
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:53 -  HmacSha1Signer - signatureBaseString  GET&https%3A%2F%2Fapi.etrade.com%2Fv1%2Faccounts%2F3gSNfVZwz1AmoNxlTHzkzw%2Fbalance&instType%3DBROKERAGE%26oauth_consumer_key%3D700dd1967d1739dfb15419df1bcc3e6e%26oauth_nonce%3DMzYwMzY4ODI2ODkxMDYzMTc0Nw%253D%253D%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1632176400%26oauth_token%3DvpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%253D%26realTimeNAV%3Dtrue
+2021-09-20 18:20:00 DEBUG HmacSha1Signer:74 -  computeSignature from HMAC bbIK00M2QJ3ndNhIrc4hk7WT5g0=
+2021-09-20 18:20:00 DEBUG OAuth1Template:192 -  signature bbIK00M2QJ3ndNhIrc4hk7WT5g0=
+2021-09-20 18:20:00 DEBUG OAuth1Template:310 -  getAuthorizationHeader : true isOauthRequired YES
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:71 - Oauth HeaderOAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="MzYwMzY4ODI2ODkxMDYzMTc0Nw%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="bbIK00M2QJ3ndNhIrc4hk7WT5g0%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D",instType="BROKERAGE",realTimeNAV="true"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:78 - Created GET request for "https://api.etrade.com/v1/accounts/3gSNfVZwz1AmoNxlTHzkzw/balance?instType=BROKERAGE&realTimeNAV=true"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:715 - Setting request Accept header to [text/plain, application/json, */*]
+2021-09-20 18:20:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2021-09-20 18:20:00 DEBUG RequestAddCookies:167 - Cookie [version: 0][name: JSESSIONID][value: EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4][domain: api.etrade.com][path: /][expiry: null] match [(secure)api.etrade.com:443/v1/accounts/3gSNfVZwz1AmoNxlTHzkzw/balance]
+2021-09-20 18:20:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG MainClientExec:255 - Executing request GET /v1/accounts/3gSNfVZwz1AmoNxlTHzkzw/balance?instType=BROKERAGE&realTimeNAV=true HTTP/1.1
+2021-09-20 18:20:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2021-09-20 18:20:00 DEBUG headers:124 - http-outgoing-0 >> GET /v1/accounts/3gSNfVZwz1AmoNxlTHzkzw/balance?instType=BROKERAGE&realTimeNAV=true HTTP/1.1
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="MzYwMzY4ODI2ODkxMDYzMTc0Nw%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="bbIK00M2QJ3ndNhIrc4hk7WT5g0%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D",instType="BROKERAGE",realTimeNAV="true"
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Host: api.etrade.com
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Cookie: JSESSIONID=EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4
+2021-09-20 18:20:00 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "GET /v1/accounts/3gSNfVZwz1AmoNxlTHzkzw/balance?instType=BROKERAGE&realTimeNAV=true HTTP/1.1[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Authorization: OAuth oauth_consumer_key="700dd1967d1739dfb15419df1bcc3e6e",oauth_timestamp="1632176400",oauth_nonce="MzYwMzY4ODI2ODkxMDYzMTc0Nw%3D%3D",oauth_signature_method="HMAC-SHA1",oauth_signature="bbIK00M2QJ3ndNhIrc4hk7WT5g0%3D",oauth_token="vpOgqt6hoi6fviuP9rUWKRZp6O1loUFC9WmAXW805sM%3D",instType="BROKERAGE",realTimeNAV="true"[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Host: api.etrade.com[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5 (Java/1.8.0_101)[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Cookie: JSESSIONID=EBF4C1A39D05E6AC7ECBA96EDADDAE7F.tomcat4[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 20 Sep 2021 22:20:01 GMT[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Server: Apache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "apiServerName: 18w603m3[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "X-ET-Trace: 642014ed56117ed55e44a59e8e627683[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Set-Cookie: JSESSIONID=CAAB9D778690CAEC1086161302ABB54C.tomcat4;path=/;Secure;HttpOnly[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Keep-Alive: timeout=60, max=386[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Date: Mon, 20 Sep 2021 22:20:01 GMT
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Server: Apache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Cache-Control: no-cache, no-store
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Pragma: no-cache
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << apiServerName: 18w603m3
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << X-ET-Trace: 642014ed56117ed55e44a59e8e627683
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Set-Cookie: JSESSIONID=CAAB9D778690CAEC1086161302ABB54C.tomcat4;path=/;Secure;HttpOnly
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Keep-Alive: timeout=60, max=386
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Connection: Keep-Alive
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Transfer-Encoding: chunked
+2021-09-20 18:20:00 DEBUG headers:116 - http-outgoing-0 << Content-Type: application/json
+2021-09-20 18:20:00 DEBUG MainClientExec:284 - Connection can be kept alive for 60000 MILLISECONDS
+2021-09-20 18:20:00 DEBUG ResponseProcessCookies:118 - Cookie accepted [JSESSIONID="CAAB9D778690CAEC1086161302ABB54C.tomcat4", version:0, domain:api.etrade.com, path:/, expiry:null]
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:627 - GET request for "https://api.etrade.com/v1/accounts/3gSNfVZwz1AmoNxlTHzkzw/balance?instType=BROKERAGE&realTimeNAV=true" resulted in 200 (OK)
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "392[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "{"BalanceResponse":{"accountId":"51515465","accountType":"MARGIN","optionLevel":"LEVEL_2","accountDescription":"Core N Ireland","quoteMode":1,"dayTraderStatus":"NO_PDT","accountMode":"MARGIN","Cash":{"fundsForOpenOrdersCash":0,"moneyMktBalance":0},"Computed":{"cashAvailableForInvestment":1426.83,"cashAvailableForWithdrawal":1426.83,"totalAvailableForWithdrawal":2854.1,"netCash":2854.1,"cashBalance":0,"settledCashForInvestment":0,"unSettledCashForInvestment":0,"fundsWithheldFromPurchasePower":0,"fundsWithheldFromWithdrawal":0,"marginBuyingPower":6582,"cashBuyingPower":2854.1,"dtMarginBuyingPower":0,"dtCashBuyingPower":0,"marginBalance":1426.83,"shortAdjustBalance":0,"regtEquity":4854.1,"regtEquityPercent":100,"accountBalance":1426.83,"OpenCalls":{"minEquityCall":0,"fedCall":0,"cashCall":0,"houseCall":0},"RealTimeValues":{"totalAccountValue":4854.26,"netMv":3427.43,"netMvLong":3427.43,"netMvShort":0}}}}[\r][\n]"
+2021-09-20 18:20:00 DEBUG CustomRestTemplate:102 - Reading [java.lang.String] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@7c56e013]
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2021-09-20 18:20:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.etrade.com:443] can be kept alive for 60.0 seconds
+2021-09-20 18:20:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.etrade.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-09-20 18:20:00 DEBUG AppController:75 - {"BalanceResponse":{"accountId":"51515465","accountType":"MARGIN","optionLevel":"LEVEL_2","accountDescription":"Core N Ireland","quoteMode":1,"dayTraderStatus":"NO_PDT","accountMode":"MARGIN","Cash":{"fundsForOpenOrdersCash":0,"moneyMktBalance":0},"Computed":{"cashAvailableForInvestment":1426.83,"cashAvailableForWithdrawal":1426.83,"totalAvailableForWithdrawal":2854.1,"netCash":2854.1,"cashBalance":0,"settledCashForInvestment":0,"unSettledCashForInvestment":0,"fundsWithheldFromPurchasePower":0,"fundsWithheldFromWithdrawal":0,"marginBuyingPower":6582,"cashBuyingPower":2854.1,"dtMarginBuyingPower":0,"dtCashBuyingPower":0,"marginBalance":1426.83,"shortAdjustBalance":0,"regtEquity":4854.1,"regtEquityPercent":100,"accountBalance":1426.83,"OpenCalls":{"minEquityCall":0,"fedCall":0,"cashCall":0,"houseCall":0},"RealTimeValues":{"totalAccountValue":4854.26,"netMv":3427.43,"netMvLong":3427.43,"netMvShort":0}}}}
+2021-09-20 18:20:00 DEBUG ETClientApp:548 -  Response String : {"BalanceResponse":{"accountId":"51515465","accountType":"MARGIN","optionLevel":"LEVEL_2","accountDescription":"Core N Ireland","quoteMode":1,"dayTraderStatus":"NO_PDT","accountMode":"MARGIN","Cash":{"fundsForOpenOrdersCash":0,"moneyMktBalance":0},"Computed":{"cashAvailableForInvestment":1426.83,"cashAvailableForWithdrawal":1426.83,"totalAvailableForWithdrawal":2854.1,"netCash":2854.1,"cashBalance":0,"settledCashForInvestment":0,"unSettledCashForInvestment":0,"fundsWithheldFromPurchasePower":0,"fundsWithheldFromWithdrawal":0,"marginBuyingPower":6582,"cashBuyingPower":2854.1,"dtMarginBuyingPower":0,"dtCashBuyingPower":0,"marginBalance":1426.83,"shortAdjustBalance":0,"regtEquity":4854.1,"regtEquityPercent":100,"accountBalance":1426.83,"OpenCalls":{"minEquityCall":0,"fedCall":0,"cashCall":0,"houseCall":0},"RealTimeValues":{"totalAccountValue":4854.26,"netMv":3427.43,"netMvLong":3427.43,"netMvShort":0}}}}
+2021-09-20 18:20:00 DEBUG ETClientApp:552 -  JSONObject : {"BalanceResponse":{"accountId":"51515465","dayTraderStatus":"NO_PDT","accountDescription":"Core N Ireland","accountType":"MARGIN","quoteMode":1,"Cash":{"moneyMktBalance":0,"fundsForOpenOrdersCash":0},"accountMode":"MARGIN","Computed":{"shortAdjustBalance":0,"OpenCalls":{"fedCall":0,"cashCall":0,"minEquityCall":0,"houseCall":0},"totalAvailableForWithdrawal":2854.1,"unSettledCashForInvestment":0,"cashAvailableForWithdrawal":1426.83,"cashBuyingPower":2854.1,"regtEquity":4854.1,"regtEquityPercent":100,"cashAvailableForInvestment":1426.83,"fundsWithheldFromPurchasePower":0,"dtCashBuyingPower":0,"fundsWithheldFromWithdrawal":0,"cashBalance":0,"marginBuyingPower":6582,"netCash":2854.1,"settledCashForInvestment":0,"dtMarginBuyingPower":0,"accountBalance":1426.83,"RealTimeValues":{"netMvShort":0,"netMv":3427.43,"netMvLong":3427.43,"totalAccountValue":4854.26},"marginBalance":1426.83},"optionLevel":"LEVEL_2"}}
