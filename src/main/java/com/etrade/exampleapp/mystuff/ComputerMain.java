@@ -27,7 +27,7 @@ public class ComputerMain {
     static RedditReader redditReader;
 
     private static void init_whole() {
-        api = new DiscordApiBuilder().setToken("ODA1MTAzMDk1MDEzMDQ4MzMy.YBWArw.YzdoaKMpBqfQ8zWRquWrlFVnRxQ").login().join();
+        api = new DiscordApiBuilder().setToken("TOKEN").login().join();
         log = new MyLogger("logs/LogOutput" + new Date().toString().substring(4) + ".txt");
         printer = new SystemPrinter();
         discord = new DiscordPrinter("848927206985564200");
