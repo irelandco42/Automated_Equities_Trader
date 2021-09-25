@@ -28,9 +28,9 @@ public class SandBoxConfig extends OOauthConfig {
 	public Resource oauthResouce(){
 		Resource resourceDetails = super.oauthResouce();
 		//resourceDetails.setSharedSecret(sandboxSecretKey);
-		resourceDetails.setSharedSecret("510a97900220b409da49dee388c27224e6376646742cf7e9a699a00e499e0394");
+		resourceDetails.setSharedSecret("SECRET");
 		//resourceDetails.setConsumerKey(sandboxConsumerKey);
-		resourceDetails.setConsumerKey("700dd1967d1739dfb15419df1bcc3e6e");
+		resourceDetails.setConsumerKey("CONSUMER");
 		return resourceDetails;
 	}
 
